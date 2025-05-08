@@ -31,6 +31,11 @@ body {
     opacity: 0.9 !important;
 }
 
+.subcard {
+    background-color: rebeccapurple;
+    margin: 5px;
+}
+
 .list-items {
     margin-left: 5px;
 }
