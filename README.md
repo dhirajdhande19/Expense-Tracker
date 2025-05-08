@@ -1,4 +1,4 @@
-# Expense Tracker
+# Expense Tracker (In progress)
 A simple and responsive expense tracker built with **HTML**, **CSS**, **Bootstrap**, and **JavaScript**. 
 This web app allows users to add, manage, and track their expenses in an easy-to-use interface.
 
