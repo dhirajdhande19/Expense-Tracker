@@ -1,0 +1,49 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #CFFFDC !important;
+    height: 2000px;
+}
+
+.card {
+    background-color: #68BA7F !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 5px 2px #2E6F40 !important;
+    border-color: #2E6F40 !important;
+    outline: none !important;
+}
+
+.logo {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+}
+
+.card{
+    opacity: 1 !important;
+}
+
+.card:hover {
+    opacity: 0.9 !important;
+}
+
+.list-items {
+    margin-left: 5px;
+}
+
+
+/* @media (max-width: 1200) {
+    .main_card {
+        columns: 4;
+    }
+}
+
+@media (min-width: 1024) {
+    .main_card {
+        columns: 9;
+    }
+} */
