@@ -1,5 +1,4 @@
 # Expense Tracker
-
 A simple and responsive expense tracker built with **HTML**, **CSS**, **Bootstrap**, and **JavaScript**. 
 This web app allows users to add, manage, and track their expenses in an easy-to-use interface.
 
@@ -15,8 +14,9 @@ This web app allows users to add, manage, and track their expenses in an easy-to
 - **JavaScript**: Handles form interactions and updates.
 
 ## Screenshots 
+  Expense Tracker Url:- 
+  "[Screenshot (357).png](https://github.com/dhirajdhande19/Expense-Tracker/blob/8963daed6c3108eac02c9463867370ce3010ccdf/Screenshot%20(357).png)"
 
 
-## 🚀 Live Demo
-
-*Coming soon – will be deployed via GitHub Pages.*
+## 🚀 Author
+  - **Dhiraj Dhande**
