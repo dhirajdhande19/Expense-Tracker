@@ -15,16 +15,6 @@ let delete_btn = document.querySelector("#delete_btn");
 add_btn.addEventListener("click", (e) => {
     e.preventDefault();
 
-    // let item1 = document.createElement("p");
-    // item1.innerText = name.value;
-    // let item2 = document.createElement("p");
-    // item2.innerText = title.value;
-    // let item3 = document.createElement("p");
-    // item3.innerText = price.value;
-    // let item4 = document.createElement("p");
-    // item4.innerText = date.value;
-
-
     let subcard = document.createElement("div");
     subcard.classList.add("subcard");
     let values = [name.value, title.value, price.value, date.value];
@@ -32,8 +22,17 @@ add_btn.addEventListener("click", (e) => {
         let p = document.createElement("p");
         p.innerText = val;
         subcard.appendChild(p);
-    }
 
+    }
+    let btn = document.createElement("button");
+    btn.classList.add("btn", "btn-success");
+    btn.innerText = "Edit";
+    let btn2 = document.createElement("button");
+    btn2.classList.add("btn", "btn-danger");
+    btn2.innerText = "Delete";
+    
+    subcard.appendChild(btn);
+    subcard.appendChild(btn2);
     ul.appendChild(subcard);
 
     form.reset(); 
