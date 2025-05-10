@@ -1,0 +1,27 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "A simple and responsive expense tracker built with **HTML**, **CSS**, **Bootstrap**, and **JavaScript**. \r This web app allows users to add, manage, and track their expenses in an easy-to-use interface.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhirajdhande19/Expense-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhirajdhande19/Expense-Tracker/issues"
+  },
+  "homepage": "https://github.com/dhirajdhande19/Expense-Tracker#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.2"
+  }
+}
